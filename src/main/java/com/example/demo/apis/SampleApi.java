@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleApi {
     @GetMapping
     public ResponseEntity<String> get() {
-        return ResponseEntity.ok("Hello, world!");
+        return ResponseEntity.ok("Hello, master!");
     }
 }
